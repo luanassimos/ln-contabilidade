@@ -1,0 +1,22 @@
+{
+  "name": "LN Contabilidade",
+  "short_name": "LN",
+  "description": "Contabilidade empresarial, planejamento tributário e BPO financeiro.",
+  "start_url": "../../index.html",
+  "display": "standalone",
+  "background_color": "#0B1519",
+  "theme_color": "#0B1519",
+  "icons": [
+    {
+      "src": "./favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "scope": "../../"
+}

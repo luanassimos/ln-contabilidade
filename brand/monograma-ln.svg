@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">Monograma LN</title>
+  <desc id="desc">Símbolo geométrico formado pelas letras L e N.</desc>
+  <circle cx="60" cy="60" r="56" fill="#0B1519"/>
+  <path d="M24 24h14v44h18v14H24V24Z" fill="#F4F1E9"/>
+  <path d="M50 82V24h14l18 31V24h14v58H82L64 51v31H50Z" fill="#F4F1E9"/>
+</svg>
