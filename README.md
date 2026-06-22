@@ -111,7 +111,7 @@ O relatório está em:
 
 `qa/relatorio-de-testes.md`
 
-A rodada de atualização de contato registrou a validação do WhatsApp real, telefone exibido, base de atendimento, domínio temporário da Vercel, `file://`, servidor local, standalone, responsividade, menu, FAQ, formulário com WhatsApp, acessibilidade básica e ausência de dados inventados.
+A rodada atual registrou a validação do WhatsApp real, telefone exibido, base de atendimento, domínio temporário da Vercel, crédito oficial da KNAR no footer, `file://`, servidor local, standalone, responsividade, menu, FAQ, formulário com WhatsApp, acessibilidade básica e ausência de dados inventados.
 
 ## Fase 3
 

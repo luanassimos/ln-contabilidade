@@ -53,6 +53,7 @@
 - [x] Testar `standalone/ln-contabilidade.html` por `file://`
 - [x] Testar `privacidade.html`
 - [x] Testar links internos, menu desktop, menu mobile e FAQ
+- [x] Confirmar crédito oficial da KNAR no footer com backlink para `https://knar.io/`
 - [x] Confirmar ausência de overflow horizontal nas larguras 360 px, 390 px, 768 px e 1440 px
 - [x] Confirmar ausência de erros de console na rodada automatizada da Fase 3
 - [ ] Regenerar `LN-Contabilidade-Site-Final.zip` caso a entrega final precise ser enviada em ZIP após a Fase 3

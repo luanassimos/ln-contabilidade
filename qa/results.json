@@ -1,15 +1,15 @@
 {
   "date": "2026-06-22",
   "project": "LN Contabilidade",
-  "phase": "Atualizacao de contato e localizacao",
+  "phase": "Atualizacao de contato, localizacao e backlink KNAR",
   "environment": {
     "mode": "static",
     "packageManager": false,
     "framework": false,
     "browser": "chrome.exe"
   },
-  "total": 45,
-  "passed": 45,
+  "total": 47,
+  "passed": 47,
   "failed": 0,
   "results": [
     {
@@ -236,6 +236,16 @@
       "name": "Preview regenerado: preview/mobile.png",
       "passed": true,
       "details": "390x1200"
+    },
+    {
+      "name": "Footer principal contem backlink oficial da KNAR",
+      "passed": true,
+      "details": "Texto Desenvolvido por KNAR aponta para https://knar.io/ com target=_blank e rel=noopener, sem nofollow."
+    },
+    {
+      "name": "Standalone contem backlink oficial da KNAR",
+      "passed": true,
+      "details": "Texto Desenvolvido por KNAR aponta para https://knar.io/ com target=_blank e rel=noopener, sem nofollow."
     }
   ]
 }

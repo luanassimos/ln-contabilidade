@@ -2,11 +2,11 @@
 
 Data da validação: 22 de junho de 2026
 
-Fase validada: Atualização de contato e localização
+Fase validada: Atualização de contato, localização e backlink KNAR
 
 Navegador de teste: Chrome/Chromium headless via DevTools Protocol
 
-Resultado automatizado: **45 de 45 verificações aprovadas**.
+Resultado automatizado: **47 de 47 verificações aprovadas**.
 
 ## Ambientes validados
 
@@ -46,13 +46,15 @@ Resultado automatizado: **45 de 45 verificações aprovadas**.
 - foco visível e navegação inicial por teclado
 - standalone com um H1, imagens carregadas e sem overflow
 - política de privacidade acessível
+- crédito oficial da KNAR no footer principal com backlink para `https://knar.io/`
+- crédito oficial da KNAR no footer da standalone com backlink para `https://knar.io/`
 - sintaxe de `assets/js/main.js` e `assets/js/site-config.js` validada com `node --check`
 - ausência de CNPJ, CRC, número de clientes, cases, depoimentos, certificações ou resultados inventados
 - ausência de promessas tributárias inadequadas
 
 ## Resultado
 
-Nenhuma falha foi registrada na rodada automatizada da Fase 3.
+Nenhuma falha foi registrada na rodada automatizada atual.
 
 O arquivo detalhado da rodada está em:
 
@@ -68,6 +70,7 @@ O arquivo detalhado da rodada está em:
 - ajuste do header em tablet
 - CTA flutuante mobile menos intrusivo
 - standalone e previews sincronizados
+- crédito oficial da KNAR adicionado ao footer com backlink final
 
 ## Informações confirmadas nesta rodada
 

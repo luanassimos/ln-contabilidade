@@ -1612,6 +1612,19 @@ section[id] {
   line-height: 1.6;
 }
 
+.footer-credit {
+  white-space: nowrap;
+}
+
+.footer-credit a {
+  color: rgba(244, 241, 233, 0.62);
+  text-decoration: none;
+}
+
+.footer-credit a:hover {
+  color: var(--ivory);
+}
+
 .mobile-contact {
   position: fixed;
   z-index: 90;
@@ -1881,7 +1894,12 @@ section[id] {
   }
 
   .footer-bottom {
-    grid-template-columns: 0.75fr 1.25fr;
+    grid-template-columns: 0.75fr 1.25fr auto;
+    align-items: start;
+  }
+
+  .footer-credit {
+    justify-self: end;
   }
 }
 
