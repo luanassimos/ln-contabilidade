@@ -41,6 +41,7 @@
 
 - [ ] Enviar todos os arquivos e pastas, não apenas o `index.html`
 - [ ] Preservar letras minúsculas e nomes dos arquivos
+- [ ] Atualizar `standalone/ln-contabilidade.html` depois da aprovação da página principal
 - [ ] Testar `index.html`
 - [ ] Testar `privacidade.html`
 - [ ] Testar todos os links do menu

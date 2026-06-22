@@ -13,7 +13,7 @@
     city: "",
     address: "",
     domain: "",
-    defaultMessage: "Olá, Nilton. Conheci a LN Contabilidade pelo site e gostaria de conversar sobre minha empresa."
+    defaultMessage: "Olá, Nilton. Conheci a LN Contabilidade pelo site e gostaria de uma análise inicial para a minha empresa."
   };
 
   var config = Object.assign({}, defaults, window.LN_SITE_CONFIG || {});
@@ -150,7 +150,7 @@
       fail('necessidade', 'Selecione a principal necessidade.');
     }
     if (!fields.consentimento.checked) {
-      fail('consentimento', 'Confirme a autorização para retorno do contato.');
+      fail('consentimento', 'Confirme a autorização para que a LN retorne o contato.');
     }
 
     if (firstInvalid) {
@@ -199,7 +199,7 @@
       var url = 'https://wa.me/' + whatsappDigits + '?text=' + encodeURIComponent(message);
       var opened = window.open(url, '_blank', 'noopener,noreferrer');
       if (!opened) window.location.href = url;
-      status.textContent = 'Mensagem preparada. O WhatsApp foi aberto em uma nova janela.';
+      status.textContent = 'Mensagem preparada. O WhatsApp foi aberto para concluir o contato.';
       status.setAttribute('data-state', 'success');
       return;
     }
@@ -207,7 +207,7 @@
     var destination = config.emailPrimary || defaults.emailPrimary;
     var subject = 'Contato pelo site | ' + fields.empresa.value.trim();
     var mailto = 'mailto:' + encodeURIComponent(destination) + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(message);
-    status.textContent = 'O WhatsApp ainda não está configurado. Seu aplicativo de e-mail será aberto para concluir o contato.';
+    status.textContent = 'O WhatsApp público ainda não está configurado. Seu aplicativo de e-mail será aberto com a mensagem pronta.';
     status.setAttribute('data-state', 'success');
     window.location.href = mailto;
   });

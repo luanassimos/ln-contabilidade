@@ -14,6 +14,8 @@ A versão de arquivo único está em:
 
 Ela incorpora imagem, CSS, JavaScript e favicon no próprio HTML.
 
+Observação: a versão standalone não foi atualizada na Fase 1 de refinamento da landing page. Atualize esse arquivo somente depois da aprovação da página principal.
+
 ## Publicar
 
 Envie todo o conteúdo da pasta para a raiz da hospedagem, preservando a estrutura de diretórios. O arquivo inicial deve permanecer como `index.html`.
@@ -61,6 +63,8 @@ Enquanto o número estiver vazio, os botões conduzem ao formulário e o envio p
 
 Os textos institucionais estão diretamente em `index.html`. Isso garante que todo o conteúdo continue visível mesmo quando o JavaScript estiver desativado.
 
+Depois de aprovar alterações na página principal, replique ou regenere a versão `standalone/ln-contabilidade.html` para manter as duas entregas alinhadas.
+
 ## Alterar cores e espaçamentos
 
 O sistema visual está em:
@@ -107,4 +111,4 @@ O relatório está em:
 
 `qa/relatorio-de-testes.md`
 
-Foram validados abertura direta por `file://`, hospedagem HTTP, responsividade, imagens, console, formulários, menu, FAQ, links internos e versão standalone.
+Esse relatório registra a validação do pacote original, incluindo a versão standalone. Na Fase 1 de refinamento, a página principal foi ajustada primeiro; a standalone deve ser atualizada e revalidada somente depois da aprovação da versão principal.

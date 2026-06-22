@@ -15,6 +15,7 @@
   --error: #a63a34;
   --success: #4f736c;
   --shadow: 0 28px 80px rgba(2, 10, 13, 0.18);
+  --shadow-soft: 0 18px 54px rgba(2, 10, 13, 0.13);
   --font-sans: "Avenir Next", Avenir, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   --font-serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
   --shell: 1180px;
@@ -176,7 +177,7 @@ section[id] {
   color: var(--ivory);
   font-size: 1rem;
   font-weight: 680;
-  letter-spacing: -0.02em;
+  letter-spacing: 0;
   white-space: nowrap;
 }
 
@@ -276,8 +277,8 @@ section[id] {
   right: 0;
   display: grid;
   width: min(310px, calc(100vw - 40px));
-  padding: 18px;
-  gap: 2px;
+  padding: 20px;
+  gap: 4px;
   background: var(--paper-bright);
   border: 1px solid var(--line-light);
   box-shadow: 0 20px 48px rgba(0, 0, 0, 0.25);
@@ -299,18 +300,18 @@ section[id] {
 
 .button {
   display: inline-flex;
-  min-height: 50px;
+  min-height: 52px;
   align-items: center;
   justify-content: center;
   gap: 11px;
-  padding: 13px 19px;
+  padding: 14px 21px;
   border: 1px solid transparent;
   border-radius: var(--radius);
-  font-size: 0.875rem;
+  font-size: 0.9rem;
   font-weight: 700;
   line-height: 1.2;
   text-align: center;
-  transition: transform 160ms ease, color 160ms ease, background 160ms ease, border-color 160ms ease;
+  transition: transform 160ms ease, color 160ms ease, background 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
 }
 
 .button svg {
@@ -330,10 +331,12 @@ section[id] {
 .button-light {
   color: var(--ink);
   background: var(--ivory);
+  box-shadow: 0 14px 34px rgba(2, 10, 13, 0.14);
 }
 
 .button-light:hover {
   background: #fff;
+  box-shadow: 0 18px 42px rgba(2, 10, 13, 0.2);
 }
 
 .button-outline {
@@ -348,7 +351,7 @@ section[id] {
 }
 
 .section {
-  padding-block: 88px;
+  padding-block: 96px;
 }
 
 .section-dark,
@@ -393,7 +396,7 @@ section[id] {
 .hero {
   position: relative;
   overflow: hidden;
-  padding: 70px 0 78px;
+  padding: 78px 0 86px;
 }
 
 .hero-grid {
@@ -435,10 +438,10 @@ section[id] {
   max-width: 780px;
   margin-top: 28px;
   color: var(--ivory);
-  font-size: clamp(2.65rem, 11.2vw, 5.45rem);
+  font-size: 3rem;
   font-weight: 680;
-  letter-spacing: -0.058em;
-  line-height: 0.99;
+  letter-spacing: 0;
+  line-height: 1.02;
   text-wrap: balance;
 }
 
@@ -446,7 +449,7 @@ section[id] {
   max-width: 680px;
   margin-top: 30px;
   color: rgba(184, 194, 191, 0.88);
-  font-size: clamp(1.04rem, 2.2vw, 1.22rem);
+  font-size: 1.08rem;
   line-height: 1.65;
 }
 
@@ -458,10 +461,11 @@ section[id] {
 
 .hero-note {
   max-width: 600px;
-  margin-top: 26px;
-  padding-top: 20px;
-  color: rgba(184, 194, 191, 0.61);
+  margin-top: 24px;
+  padding: 16px 0 0 18px;
+  color: rgba(184, 194, 191, 0.68);
   border-top: 1px solid rgba(244, 241, 233, 0.12);
+  border-left: 1px solid rgba(138, 168, 186, 0.35);
   font-size: 0.81rem;
   line-height: 1.6;
 }
@@ -477,6 +481,7 @@ section[id] {
   position: relative;
   padding: 8px;
   border: 1px solid rgba(138, 168, 186, 0.34);
+  box-shadow: 0 18px 60px rgba(2, 10, 13, 0.28);
 }
 
 .portrait-frame picture {
@@ -531,7 +536,7 @@ section[id] {
   padding: 25px 26px 23px;
   color: var(--ink);
   background: var(--ivory);
-  box-shadow: var(--shadow);
+  box-shadow: var(--shadow-soft);
   font-family: var(--font-serif);
   font-size: 1.25rem;
   font-style: italic;
@@ -584,7 +589,7 @@ section[id] {
 .expertise-grid h2 {
   font-size: 1rem;
   font-weight: 740;
-  letter-spacing: -0.015em;
+  letter-spacing: 0;
 }
 
 .expertise-grid p {
@@ -609,17 +614,17 @@ section[id] {
 .faq h2,
 .contact h2 {
   margin-top: 20px;
-  font-size: clamp(2.05rem, 7.5vw, 4.25rem);
+  font-size: 2.25rem;
   font-weight: 660;
-  letter-spacing: -0.052em;
-  line-height: 1.04;
+  letter-spacing: 0;
+  line-height: 1.08;
   text-wrap: balance;
 }
 
 .section-intro {
   max-width: 600px;
   color: var(--slate);
-  font-size: 1rem;
+  font-size: 1.02rem;
   line-height: 1.75;
 }
 
@@ -630,7 +635,7 @@ section[id] {
 
 .issue-list article {
   display: grid;
-  padding: 25px 0;
+  padding: 28px 0;
   gap: 10px;
   border-bottom: 1px solid var(--line-light);
 }
@@ -643,9 +648,9 @@ section[id] {
 }
 
 .issue-list h3 {
-  font-size: 1.12rem;
+  font-size: 1.15rem;
   font-weight: 710;
-  letter-spacing: -0.02em;
+  letter-spacing: 0;
   line-height: 1.35;
 }
 
@@ -719,13 +724,13 @@ section[id] {
 }
 
 .service-stack {
-  margin-top: 58px;
+  margin-top: 62px;
   border-top: 1px solid var(--line-light);
 }
 
 .service-feature {
   display: grid;
-  padding: 34px 0;
+  padding: 38px 0;
   gap: 22px;
   border-bottom: 1px solid var(--line-light);
 }
@@ -748,10 +753,10 @@ section[id] {
 .service-main h3 {
   max-width: 650px;
   margin-top: 10px;
-  font-size: clamp(1.55rem, 4.8vw, 2.55rem);
+  font-size: 1.75rem;
   font-weight: 650;
-  letter-spacing: -0.04em;
-  line-height: 1.12;
+  letter-spacing: 0;
+  line-height: 1.16;
 }
 
 .service-main > p:last-child {
@@ -801,13 +806,13 @@ section[id] {
 
 .supporting-services {
   display: grid;
-  margin-top: 48px;
+  margin-top: 54px;
   border-top: 1px solid var(--line-light);
   border-bottom: 1px solid var(--line-light);
 }
 
 .supporting-services article {
-  padding: 30px 0;
+  padding: 32px 0;
   border-bottom: 1px solid var(--line-light);
 }
 
@@ -830,7 +835,7 @@ section[id] {
   margin-top: 22px;
   font-size: 1.05rem;
   font-weight: 710;
-  letter-spacing: -0.02em;
+  letter-spacing: 0;
 }
 
 .supporting-services p {
@@ -868,7 +873,7 @@ section[id] {
 .reform-copy > p:not(.eyebrow, .source-note) {
   max-width: 700px;
   margin-top: 24px;
-  color: rgba(184, 194, 191, 0.78);
+  color: rgba(184, 194, 191, 0.82);
   font-size: 1rem;
   line-height: 1.75;
 }
@@ -901,7 +906,7 @@ section[id] {
   display: grid;
   grid-template-columns: 36px 1fr;
   align-items: center;
-  padding: 20px 0;
+  padding: 22px 0;
   gap: 14px;
   border-bottom: 1px solid rgba(244, 241, 233, 0.16);
 }
@@ -933,7 +938,7 @@ section[id] {
   margin-top: 24px;
   color: #405157;
   font-family: var(--font-serif);
-  font-size: clamp(1.25rem, 4vw, 1.75rem);
+  font-size: 1.38rem;
   font-style: italic;
   line-height: 1.55;
 }
@@ -959,6 +964,7 @@ section[id] {
   border-bottom: 1px solid var(--line-light);
   font-size: 0.91rem;
   font-weight: 620;
+  line-height: 1.45;
 }
 
 .check-list li::before {
@@ -1023,7 +1029,7 @@ section[id] {
 .process-list li {
   display: grid;
   grid-template-columns: 42px 1fr;
-  padding: 25px 0;
+  padding: 28px 0;
   gap: 15px;
   border-bottom: 1px solid var(--line-light);
 }
@@ -1038,7 +1044,7 @@ section[id] {
 .process-list h3 {
   font-size: 1.05rem;
   font-weight: 710;
-  letter-spacing: -0.02em;
+  letter-spacing: 0;
 }
 
 .process-list p {
@@ -1075,7 +1081,7 @@ section[id] {
   color: var(--ivory);
   border-top: 1px solid rgba(244, 241, 233, 0.16);
   font-family: var(--font-serif);
-  font-size: clamp(1.32rem, 4.5vw, 1.8rem);
+  font-size: 1.42rem;
   font-style: italic;
   line-height: 1.5;
 }
@@ -1115,9 +1121,9 @@ section[id] {
 
 .fit-list li {
   position: relative;
-  padding: 18px 4px 18px 32px;
+  padding: 19px 4px 19px 32px;
   border-bottom: 1px solid var(--line-light);
-  font-size: 0.94rem;
+  font-size: 0.96rem;
   line-height: 1.55;
 }
 
@@ -1153,13 +1159,13 @@ section[id] {
 .faq-list summary {
   position: relative;
   display: grid;
-  min-height: 72px;
+  min-height: 76px;
   cursor: pointer;
   grid-template-columns: 1fr 28px;
   align-items: center;
   gap: 20px;
   list-style: none;
-  font-size: 0.95rem;
+  font-size: 1rem;
   font-weight: 680;
   line-height: 1.45;
 }
@@ -1199,9 +1205,9 @@ section[id] {
 
 .faq-list details > p {
   max-width: 700px;
-  padding: 0 48px 24px 0;
+  padding: 0 48px 28px 0;
   color: var(--slate);
-  font-size: 0.88rem;
+  font-size: 0.92rem;
   line-height: 1.72;
 }
 
@@ -1217,7 +1223,7 @@ section[id] {
 .contact-copy > p:not(.eyebrow) {
   max-width: 610px;
   margin-top: 24px;
-  color: rgba(184, 194, 191, 0.76);
+  color: rgba(184, 194, 191, 0.82);
   line-height: 1.75;
 }
 
@@ -1250,10 +1256,11 @@ section[id] {
 }
 
 .lead-form {
-  padding: 28px 22px;
+  padding: 30px 22px;
   color: var(--ink);
   background: var(--paper-bright);
-  box-shadow: var(--shadow);
+  border: 1px solid rgba(244, 241, 233, 0.2);
+  box-shadow: var(--shadow-soft);
 }
 
 .form-grid {
@@ -1263,12 +1270,12 @@ section[id] {
 
 .field-group {
   display: grid;
-  gap: 7px;
+  gap: 8px;
 }
 
 .field-group label {
   color: var(--ink);
-  font-size: 0.75rem;
+  font-size: 0.77rem;
   font-weight: 720;
 }
 
@@ -1281,11 +1288,11 @@ section[id] {
 .field-group select,
 .field-group textarea {
   width: 100%;
-  min-height: 50px;
-  padding: 12px 13px;
+  min-height: 52px;
+  padding: 13px 14px;
   color: var(--ink);
   background: #fff;
-  border: 1px solid rgba(11, 21, 25, 0.21);
+  border: 1px solid rgba(11, 21, 25, 0.2);
   border-radius: 0;
   outline: none;
   font-size: 0.94rem;
@@ -1318,7 +1325,7 @@ section[id] {
 .field-error {
   min-height: 0;
   color: var(--error);
-  font-size: 0.68rem;
+  font-size: 0.7rem;
   line-height: 1.35;
 }
 
@@ -1333,7 +1340,7 @@ section[id] {
   align-items: start;
   gap: 10px;
   color: var(--slate);
-  font-size: 0.71rem;
+  font-size: 0.73rem;
   line-height: 1.55;
 }
 
@@ -1368,9 +1375,9 @@ section[id] {
 .form-note,
 .form-status,
 .noscript-note {
-  margin-top: 13px;
+  margin-top: 14px;
   color: var(--slate);
-  font-size: 0.68rem;
+  font-size: 0.72rem;
   line-height: 1.55;
 }
 
@@ -1407,7 +1414,7 @@ section[id] {
 }
 
 .footer-top > p {
-  max-width: 460px;
+  max-width: 540px;
   color: rgba(184, 194, 191, 0.62);
   font-size: 0.86rem;
   line-height: 1.7;
@@ -1510,10 +1517,10 @@ section[id] {
 
 .privacy-content h1 {
   margin-top: 22px;
-  font-size: clamp(2.4rem, 8vw, 4.8rem);
+  font-size: 2.75rem;
   font-weight: 660;
-  letter-spacing: -0.055em;
-  line-height: 1.04;
+  letter-spacing: 0;
+  line-height: 1.08;
 }
 
 .privacy-content .updated {
@@ -1526,7 +1533,7 @@ section[id] {
   margin-top: 46px;
   font-size: 1.35rem;
   font-weight: 720;
-  letter-spacing: -0.025em;
+  letter-spacing: 0;
 }
 
 .privacy-content p,
@@ -1592,11 +1599,44 @@ section[id] {
 
 @media (min-width: 700px) {
   .section {
-    padding-block: 112px;
+    padding-block: 124px;
   }
 
   .hero {
-    padding: 92px 0 92px;
+    padding: 96px 0 100px;
+  }
+
+  .hero h1 {
+    font-size: 4rem;
+  }
+
+  .split-heading h2,
+  .approach h2,
+  .reform h2,
+  .bpo h2,
+  .process h2,
+  .about h2,
+  .fit h2,
+  .faq h2,
+  .contact h2 {
+    font-size: 3.15rem;
+    line-height: 1.06;
+  }
+
+  .service-main h3 {
+    font-size: 2.1rem;
+  }
+
+  .bpo-lead {
+    font-size: 1.55rem;
+  }
+
+  .about-copy blockquote {
+    font-size: 1.62rem;
+  }
+
+  .privacy-content h1 {
+    font-size: 4rem;
   }
 
   .expertise-grid {
@@ -1721,7 +1761,8 @@ section[id] {
   }
 
   .hero h1 {
-    font-size: clamp(4rem, 6.1vw, 5.65rem);
+    font-size: 5.05rem;
+    line-height: 1;
   }
 
   .hero-portrait {
@@ -1747,6 +1788,26 @@ section[id] {
     grid-template-columns: minmax(0, 1.05fr) minmax(360px, 0.95fr);
     align-items: end;
     gap: 84px;
+  }
+
+  .split-heading h2,
+  .approach h2,
+  .reform h2,
+  .bpo h2,
+  .process h2,
+  .about h2,
+  .fit h2,
+  .faq h2,
+  .contact h2 {
+    font-size: 4rem;
+  }
+
+  .service-main h3 {
+    font-size: 2.5rem;
+  }
+
+  .bpo-lead {
+    font-size: 1.75rem;
   }
 
   .section-intro {
@@ -1895,6 +1956,10 @@ section[id] {
 
   .hero-layout {
     gap: 84px;
+  }
+
+  .hero h1 {
+    font-size: 5.45rem;
   }
 
   .hero-portrait blockquote {

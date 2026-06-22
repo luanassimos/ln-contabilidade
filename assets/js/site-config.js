@@ -15,5 +15,5 @@ window.LN_SITE_CONFIG = {
   city: "",
   address: "",
   domain: "",
-  defaultMessage: "Olá, Nilton. Conheci a LN Contabilidade pelo site e gostaria de conversar sobre minha empresa."
+  defaultMessage: "Olá, Nilton. Conheci a LN Contabilidade pelo site e gostaria de uma análise inicial para a minha empresa."
 };
