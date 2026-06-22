@@ -13,7 +13,7 @@
     city: "",
     address: "",
     domain: "",
-    defaultMessage: "Olá, Nilton. Conheci a LN Contabilidade pelo site e gostaria de uma análise inicial para a minha empresa."
+    defaultMessage: "Olá, Nilton. Conheci a LN Contabilidade pelo site e gostaria de solicitar uma análise inicial do cenário da minha empresa."
   };
 
   var config = Object.assign({}, defaults, window.LN_SITE_CONFIG || {});
@@ -60,8 +60,8 @@
   var footer = document.querySelector('.site-footer');
   if (mobileContact) {
     var updateMobileContact = function () {
-      var footerIsNear = footer && footer.getBoundingClientRect().top < window.innerHeight + 40;
-      var shouldShow = window.scrollY > 520 && !footerIsNear;
+      var footerIsNear = footer && footer.getBoundingClientRect().top < window.innerHeight + 180;
+      var shouldShow = window.scrollY > 860 && !footerIsNear;
       mobileContact.classList.toggle('is-visible', shouldShow);
     };
     updateMobileContact();

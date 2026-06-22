@@ -49,11 +49,21 @@
 - [x] Testar `standalone/ln-contabilidade.html` por `file://`
 - [x] Testar `privacidade.html`
 - [x] Testar links internos, menu desktop, menu mobile e FAQ
-- [x] Confirmar ausência de overflow horizontal nas larguras 360 px, 390 px, 768 px, 1440 px e desktop amplo
-- [x] Confirmar ausência de erros de console na rodada automatizada final
-- [x] Criar e validar `LN-Contabilidade-Site-Final.zip` extraído em pasta temporária
+- [x] Confirmar ausência de overflow horizontal nas larguras 360 px, 390 px, 768 px e 1440 px
+- [x] Confirmar ausência de erros de console na rodada automatizada da Fase 3
+- [ ] Regenerar `LN-Contabilidade-Site-Final.zip` caso a entrega final precise ser enviada em ZIP após a Fase 3
 - [ ] Testar em celular real depois da publicação
 - [ ] Limpar o cache da hospedagem ou CDN após atualizações, se houver CDN
+
+## Fase 3
+
+- [x] Tornar o hero mais direto e comercial
+- [x] Substituir o uso genérico de diagnóstico por análise inicial do cenário da empresa
+- [x] Adicionar seção `O que a análise pode revelar`
+- [x] Adicionar seção `O que você recebe`
+- [x] Refinar FAQ para reduzir objeções sem exagero comercial
+- [x] Ajustar header em tablet e CTA flutuante mobile
+- [x] Sincronizar standalone, previews, QA e documentação
 
 ## Conteúdo futuro
 

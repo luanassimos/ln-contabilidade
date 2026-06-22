@@ -4,7 +4,7 @@ Site institucional estático criado em HTML5, CSS3 e JavaScript puro. Não exige
 
 ## Abrir agora
 
-1. Extraia o ZIP inteiro.
+1. Abra a pasta do projeto.
 2. Dê dois cliques em `index.html`.
 3. O site abrirá no navegador com imagens, estilos, menu, FAQ e formulário.
 
@@ -12,7 +12,7 @@ A versão de arquivo único está em:
 
 `standalone/ln-contabilidade.html`
 
-Ela incorpora CSS, JavaScript, favicons e imagens essenciais no próprio HTML. A standalone foi sincronizada com a versão principal nesta finalização e também abre direto por `file://`.
+Ela incorpora CSS, JavaScript, favicons e imagens essenciais no próprio HTML. A standalone foi sincronizada com a versão principal na Fase 3 e também abre direto por `file://`.
 
 ## Publicar
 
@@ -109,12 +109,17 @@ O relatório está em:
 
 `qa/relatorio-de-testes.md`
 
-A rodada final registrou 45 de 45 verificações aprovadas em `qa/results.json`, incluindo `file://`, servidor local, standalone, responsividade, menu, FAQ, formulário, fallback de e-mail, acessibilidade básica e ausência de dados inventados.
+A rodada da Fase 3 registrou 44 de 44 verificações aprovadas em `qa/results.json`, incluindo `file://`, servidor local, standalone, responsividade, menu, FAQ, formulário, fallback de e-mail, acessibilidade básica e ausência de dados inventados.
 
-## Pacote final
+## Fase 3
 
-O pacote de publicação é:
+A Fase 3 refinou a landing page para aumentar percepção de autoridade, conversão e maturidade comercial sem inventar dados reais. As principais mudanças foram:
 
-`LN-Contabilidade-Site-Final.zip`
+- hero mais direto sobre contabilidade empresarial, tributos, caixa e crescimento
+- oferta inicial renomeada para análise inicial do cenário da empresa
+- nova seção `O que a análise pode revelar`
+- nova seção `O que você recebe`
+- FAQ revisado para reduzir objeções sem prometer resultado
+- ajustes de tablet, mobile e CTA flutuante
 
-Ele contém a versão principal, standalone, assets, brand, previews, QA, README e checklist de publicação.
+O arquivo `LN-Contabilidade-Site-Final.zip` existente pertence ao pacote final anterior e não foi regenerado nesta fase, porque ZIP não estava na lista de arquivos permitidos. Para publicar a versão Fase 3 em ZIP, gere um novo pacote a partir da pasta atual.

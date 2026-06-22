@@ -2,9 +2,11 @@
 
 Data da validação: 22 de junho de 2026
 
+Fase validada: Fase 3
+
 Navegador de teste: Chrome/Chromium headless via DevTools Protocol
 
-Resultado automatizado: **45 de 45 verificações aprovadas**.
+Resultado automatizado: **44 de 44 verificações aprovadas**.
 
 ## Ambientes validados
 
@@ -19,7 +21,6 @@ Resultado automatizado: **45 de 45 verificações aprovadas**.
 - 390 px
 - 768 px
 - 1440 px
-- desktop amplo, com 1920 px
 
 ## Verificações executadas
 
@@ -48,11 +49,22 @@ Resultado automatizado: **45 de 45 verificações aprovadas**.
 
 ## Resultado
 
-Nenhuma falha foi registrada na rodada automatizada final.
+Nenhuma falha foi registrada na rodada automatizada da Fase 3.
 
 O arquivo detalhado da rodada está em:
 
 `qa/results.json`
+
+## Alterações cobertas pela Fase 3
+
+- hero mais direto sobre atuação contábil, tributária e financeira
+- oferta inicial mais tangível, nomeada como análise inicial do cenário da empresa
+- nova seção `O que a análise pode revelar`
+- nova seção `O que você recebe`
+- FAQ refinado para reduzir objeções sem criar promessa de resultado
+- ajuste do header em tablet
+- CTA flutuante mobile menos intrusivo
+- standalone e previews sincronizados
 
 ## Informações pendentes, sem invenção de dados
 
@@ -66,22 +78,6 @@ O arquivo detalhado da rodada está em:
 
 Enquanto o WhatsApp permanece vazio, o formulário prepara um e-mail para `nilton@lncontabilidade.com`. Os botões principais levam ao formulário e nenhum número fictício aparece no projeto.
 
-## Observação sobre links externos
+## Observação sobre pacote compactado
 
-Os links institucionais usados na seção da reforma tributária apontam para Receita Federal e Planalto. O Instagram aponta para `@contabilidadeln`. A disponibilidade futura de serviços externos depende dos respectivos provedores.
-
-## Validação do pacote compactado
-
-O pacote final criado é:
-
-`LN-Contabilidade-Site-Final.zip`
-
-O ZIP foi extraído em uma pasta temporária limpa e validado novamente em 22 de junho de 2026.
-
-Resultado da validação do pacote: **5 de 5 verificações aprovadas**.
-
-- estrutura obrigatória presente no ZIP
-- `index.html` extraído por `file://` em 390 px e 1440 px
-- `standalone/ln-contabilidade.html` extraído por `file://` em 390 px e 1440 px
-- um H1 por página testada
-- imagens carregadas, sem overflow horizontal e sem erros de console nos arquivos extraídos
+O arquivo `LN-Contabilidade-Site-Final.zip` existente não foi regenerado na Fase 3 porque ZIP não estava na lista de arquivos permitidos para alteração. Caso a entrega final precise ser distribuída em ZIP depois desta fase, gere um novo pacote a partir da pasta atual.

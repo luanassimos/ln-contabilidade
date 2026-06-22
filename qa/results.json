@@ -1,85 +1,96 @@
 ﻿{
     "date":  "2026-06-22",
     "project":  "LN Contabilidade",
+    "phase":  "Fase 3",
     "environment":  {
                         "mode":  "static",
                         "packageManager":  false,
                         "framework":  false,
                         "browser":  "chrome.exe"
                     },
-    "total":  45,
-    "passed":  45,
+    "total":  44,
+    "passed":  44,
     "failed":  0,
     "results":  [
                     {
-                        "name":  "Arquivo principal existe: index.html",
+                        "name":  "Arquivo existe: index.html",
                         "passed":  true,
                         "details":  "Encontrado."
                     },
                     {
-                        "name":  "Arquivo principal existe: privacidade.html",
+                        "name":  "Arquivo existe: privacidade.html",
                         "passed":  true,
                         "details":  "Encontrado."
                     },
                     {
-                        "name":  "Arquivo principal existe: assets/css/styles.css",
+                        "name":  "Arquivo existe: assets/css/styles.css",
                         "passed":  true,
                         "details":  "Encontrado."
                     },
                     {
-                        "name":  "Arquivo principal existe: assets/js/main.js",
+                        "name":  "Arquivo existe: assets/js/main.js",
                         "passed":  true,
                         "details":  "Encontrado."
                     },
                     {
-                        "name":  "Arquivo principal existe: assets/js/site-config.js",
+                        "name":  "Arquivo existe: assets/js/site-config.js",
                         "passed":  true,
                         "details":  "Encontrado."
                     },
                     {
-                        "name":  "Arquivo principal existe: README.md",
+                        "name":  "Arquivo existe: standalone/ln-contabilidade.html",
                         "passed":  true,
                         "details":  "Encontrado."
                     },
                     {
-                        "name":  "Arquivo principal existe: CHECKLIST-PUBLICACAO.md",
+                        "name":  "Arquivo existe: preview/desktop.png",
+                        "passed":  true,
+                        "details":  "Encontrado."
+                    },
+                    {
+                        "name":  "Arquivo existe: preview/tablet.png",
+                        "passed":  true,
+                        "details":  "Encontrado."
+                    },
+                    {
+                        "name":  "Arquivo existe: preview/mobile.png",
                         "passed":  true,
                         "details":  "Encontrado."
                     },
                     {
                         "name":  "WhatsApp vazio preservado",
                         "passed":  true,
-                        "details":  "site-config.js continua sem numero de WhatsApp."
+                        "details":  "site-config.js segue sem numero de WhatsApp."
                     },
                     {
                         "name":  "Sem package.json/npm",
                         "passed":  true,
-                        "details":  "Projeto segue sem npm/build."
+                        "details":  "Projeto continua sem npm/build."
                     },
                     {
                         "name":  "Sem CDN/dependencias externas",
                         "passed":  true,
-                        "details":  "Nenhum CDN ou dependencia externa detectada no codigo principal."
+                        "details":  "Nenhum CDN detectado."
                     },
                     {
                         "name":  "Sem dados corporativos inventados",
                         "passed":  true,
-                        "details":  "Nao foram encontrados CNPJ, CRC, numero de clientes, cases, depoimentos ou certificacoes inventadas."
+                        "details":  "Sem CNPJ, CRC, clientes, cases, depoimentos, certificacoes ou resultados inventados."
                     },
                     {
-                        "name":  "Sem promessas tributarias inadequadas",
+                        "name":  "Sem promessa tributaria inadequada",
                         "passed":  true,
-                        "details":  "Nao foram encontradas promessas de economia tributaria."
+                        "details":  "Sem promessa de economia garantida."
                     },
                     {
                         "name":  "Referencias locais existem em index.html",
                         "passed":  true,
-                        "details":  "Todos os arquivos locais referenciados existem."
+                        "details":  "Todas encontradas."
                     },
                     {
                         "name":  "Referencias locais existem em privacidade.html",
                         "passed":  true,
-                        "details":  "Todos os arquivos locais referenciados existem."
+                        "details":  "Todas encontradas."
                     },
                     {
                         "name":  "index.html file:// responsivo em 360px",
@@ -94,7 +105,7 @@
                     {
                         "name":  "index.html file:// imagens carregam em 360px",
                         "passed":  true,
-                        "details":  "Todas as imagens carregaram."
+                        "details":  "Imagens com falha: 0."
                     },
                     {
                         "name":  "index.html file:// responsivo em 390px",
@@ -109,12 +120,12 @@
                     {
                         "name":  "index.html file:// imagens carregam em 390px",
                         "passed":  true,
-                        "details":  "Todas as imagens carregaram."
+                        "details":  "Imagens com falha: 0."
                     },
                     {
                         "name":  "index.html possui apenas um H1",
                         "passed":  true,
-                        "details":  "Um H1 encontrado."
+                        "details":  "H1 encontrados: 1."
                     },
                     {
                         "name":  "index.html file:// responsivo em 768px",
@@ -129,7 +140,7 @@
                     {
                         "name":  "index.html file:// imagens carregam em 768px",
                         "passed":  true,
-                        "details":  "Todas as imagens carregaram."
+                        "details":  "Imagens com falha: 0."
                     },
                     {
                         "name":  "index.html file:// responsivo em 1440px",
@@ -144,30 +155,15 @@
                     {
                         "name":  "index.html file:// imagens carregam em 1440px",
                         "passed":  true,
-                        "details":  "Todas as imagens carregaram."
+                        "details":  "Imagens com falha: 0."
                     },
                     {
-                        "name":  "index.html file:// responsivo em desktop amplo",
+                        "name":  "index.html via servidor local sem 404",
                         "passed":  true,
-                        "details":  "Sem overflow horizontal (1920/1920)."
+                        "details":  "Nenhum erro de rede local."
                     },
                     {
-                        "name":  "index.html file:// sem erros em desktop amplo",
-                        "passed":  true,
-                        "details":  "Console sem erros."
-                    },
-                    {
-                        "name":  "index.html file:// imagens carregam em desktop amplo",
-                        "passed":  true,
-                        "details":  "Todas as imagens carregaram."
-                    },
-                    {
-                        "name":  "index.html via servidor local carrega sem 404",
-                        "passed":  true,
-                        "details":  "Nenhum 404/erro de rede no servidor local."
-                    },
-                    {
-                        "name":  "index.html via servidor local sem erros de console",
+                        "name":  "index.html via servidor local sem console",
                         "passed":  true,
                         "details":  "Console sem erros no servidor local."
                     },
@@ -179,12 +175,12 @@
                     {
                         "name":  "Sem IDs duplicados",
                         "passed":  true,
-                        "details":  "Nenhum ID duplicado."
+                        "details":  "Duplicados: "
                     },
                     {
                         "name":  "Sem ancoras internas quebradas",
                         "passed":  true,
-                        "details":  "Todas as ancoras internas existem."
+                        "details":  "Quebradas: "
                     },
                     {
                         "name":  "Menu desktop visivel em 1440px",
@@ -194,7 +190,7 @@
                     {
                         "name":  "Menu mobile abre, navega e fecha",
                         "passed":  true,
-                        "details":  "Abriu, navegou para #servicos e fechou."
+                        "details":  "Hash final: #servicos."
                     },
                     {
                         "name":  "FAQ accordion funciona",
@@ -204,32 +200,32 @@
                     {
                         "name":  "Formulario vazio bloqueia envio",
                         "passed":  true,
-                        "details":  "Bloqueado com 6 campos invalidos; foco em nome."
+                        "details":  "Invalidos: 6; foco: nome."
                     },
                     {
-                        "name":  "Formulario preenchido funciona com fallback por e-mail",
+                        "name":  "Formulario preenchido usa fallback por e-mail",
                         "passed":  true,
-                        "details":  "Status de sucesso por e-mail; WhatsApp vazio preservado; CTA contato: #contato."
+                        "details":  "Status: O WhatsApp público ainda não está configurado. Seu aplicativo de e-mail será aberto com a mensagem pronta."
                     },
                     {
                         "name":  "CTA de contato preserva fallback quando WhatsApp vazio",
                         "passed":  true,
-                        "details":  "CTAs internos continuam apontando para contato."
+                        "details":  "CTA href: #contato."
                     },
                     {
                         "name":  "Navegacao por teclado e foco visivel",
                         "passed":  true,
-                        "details":  "Tab focou skip-link; input exibe foco com sombra/borda."
+                        "details":  "Skip-link e campos exibem foco."
                     },
                     {
                         "name":  "standalone file:// carrega em 390px",
                         "passed":  true,
-                        "details":  "Standalone ok: um H1, sem overflow, imagens carregadas."
+                        "details":  "h1=1; overflow=False; imagens=0."
                     },
                     {
                         "name":  "standalone file:// carrega em 1440px",
                         "passed":  true,
-                        "details":  "Standalone ok: um H1, sem overflow, imagens carregadas."
+                        "details":  "h1=1; overflow=False; imagens=0."
                     },
                     {
                         "name":  "Politica de privacidade acessivel por file://",
