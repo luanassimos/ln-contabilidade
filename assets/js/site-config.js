@@ -6,14 +6,14 @@
 window.LN_SITE_CONFIG = {
   brandName: "LN Contabilidade",
   responsible: "Nilton Lúcio de Almeida Neto",
-  whatsapp: "",
-  phone: "",
+  whatsapp: "5521981884335",
+  phone: "(21) 98188-4335",
   emailPrimary: "nilton@lncontabilidade.com",
   emailSecondary: "leonardo@lncontabilidade.com",
   instagramHandle: "@contabilidadeln",
   instagramUrl: "https://www.instagram.com/contabilidadeln/",
-  city: "",
+  city: "Rio de Janeiro, RJ",
   address: "",
-  domain: "",
+  domain: "https://ln-contabilidade.vercel.app",
   defaultMessage: "Olá, Nilton. Conheci a LN Contabilidade pelo site e gostaria de solicitar uma análise inicial do cenário da minha empresa."
 };

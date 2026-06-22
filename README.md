@@ -53,9 +53,11 @@ domain
 defaultMessage
 ```
 
-O WhatsApp deve conter apenas números, com país e DDD. Exemplo de formato: `5521999999999`.
+O WhatsApp deve conter apenas números, com país e DDD. Na versão atual, o número confirmado é `5521981884335`, exibido como `(21) 98188-4335`.
 
-Enquanto o número estiver vazio, os botões conduzem ao formulário e o envio prepara um e-mail para `nilton@lncontabilidade.com`. Nenhum número fictício foi inserido.
+A base de atendimento confirmada é Rio de Janeiro, RJ, com atendimento nacional. O domínio temporário usado para SEO é `https://ln-contabilidade.vercel.app`; troque esse valor pelo domínio final quando ele for definido.
+
+O e-mail `nilton@lncontabilidade.com` permanece publicado porque já estava no projeto, mas ainda precisa de confirmação final antes do anúncio amplo do site.
 
 ## Alterar textos
 
@@ -109,7 +111,7 @@ O relatório está em:
 
 `qa/relatorio-de-testes.md`
 
-A rodada da Fase 3 registrou 44 de 44 verificações aprovadas em `qa/results.json`, incluindo `file://`, servidor local, standalone, responsividade, menu, FAQ, formulário, fallback de e-mail, acessibilidade básica e ausência de dados inventados.
+A rodada de atualização de contato registrou a validação do WhatsApp real, telefone exibido, base de atendimento, domínio temporário da Vercel, `file://`, servidor local, standalone, responsividade, menu, FAQ, formulário com WhatsApp, acessibilidade básica e ausência de dados inventados.
 
 ## Fase 3
 

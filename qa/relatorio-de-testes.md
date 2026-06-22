@@ -2,11 +2,11 @@
 
 Data da validação: 22 de junho de 2026
 
-Fase validada: Fase 3
+Fase validada: Atualização de contato e localização
 
 Navegador de teste: Chrome/Chromium headless via DevTools Protocol
 
-Resultado automatizado: **44 de 44 verificações aprovadas**.
+Resultado automatizado: **45 de 45 verificações aprovadas**.
 
 ## Ambientes validados
 
@@ -26,8 +26,11 @@ Resultado automatizado: **44 de 44 verificações aprovadas**.
 
 - existência dos arquivos principais
 - ausência de npm, build, framework e dependências externas
-- manutenção do WhatsApp vazio em `assets/js/site-config.js`
-- fallback de contato por e-mail enquanto o WhatsApp permanece vazio
+- WhatsApp real configurado em `assets/js/site-config.js`
+- telefone público exibido como `(21) 98188-4335`
+- base de atendimento Rio de Janeiro, RJ
+- atendimento nacional informado sem endereço completo
+- URL temporária da Vercel usada como domínio provisório
 - carregamento por `file://` sem erros de console
 - carregamento por servidor local sem respostas HTTP 4xx ou 5xx
 - ausência de overflow horizontal
@@ -39,7 +42,7 @@ Resultado automatizado: **44 de 44 verificações aprovadas**.
 - menu mobile abrindo, navegando e fechando
 - FAQ abrindo pelo elemento `summary`
 - formulário vazio bloqueando envio
-- formulário preenchido acionando fallback por e-mail
+- formulário preenchido acionando WhatsApp com mensagem pré-preenchida
 - foco visível e navegação inicial por teclado
 - standalone com um H1, imagens carregadas e sem overflow
 - política de privacidade acessível
@@ -66,17 +69,25 @@ O arquivo detalhado da rodada está em:
 - CTA flutuante mobile menos intrusivo
 - standalone e previews sincronizados
 
+## Informações confirmadas nesta rodada
+
+- WhatsApp: `5521981884335`
+- telefone exibido: `(21) 98188-4335`
+- base de atendimento: Rio de Janeiro, RJ
+- atendimento: nacional
+- Instagram: `@contabilidadeln`
+- domínio temporário: `https://ln-contabilidade.vercel.app`
+
 ## Informações pendentes, sem invenção de dados
 
-- número de WhatsApp
-- telefone público
-- domínio
-- cidade
-- endereço
+- domínio final
+- confirmação final do e-mail principal `nilton@lncontabilidade.com`
+- confirmação de que `leonardo@lncontabilidade.com` deve permanecer público
+- endereço completo, caso exista local de atendimento público
 - CNPJ, caso deva ser publicado
 - CRC, caso deva ser publicado
 
-Enquanto o WhatsApp permanece vazio, o formulário prepara um e-mail para `nilton@lncontabilidade.com`. Os botões principais levam ao formulário e nenhum número fictício aparece no projeto.
+Com o WhatsApp configurado, os CTAs principais abrem `wa.me/5521981884335` com mensagem inicial. O formulário preenchido também abre o WhatsApp com a mensagem preparada. O e-mail `nilton@lncontabilidade.com` permanece publicado temporariamente porque já existia no projeto, mas ainda precisa de confirmação final.
 
 ## Observação sobre pacote compactado
 

@@ -4,15 +4,15 @@
   var defaults = {
     brandName: "LN Contabilidade",
     responsible: "Nilton Lúcio de Almeida Neto",
-    whatsapp: "",
-    phone: "",
+    whatsapp: "5521981884335",
+    phone: "(21) 98188-4335",
     emailPrimary: "nilton@lncontabilidade.com",
     emailSecondary: "leonardo@lncontabilidade.com",
     instagramHandle: "@contabilidadeln",
     instagramUrl: "https://www.instagram.com/contabilidadeln/",
-    city: "",
+    city: "Rio de Janeiro, RJ",
     address: "",
-    domain: "",
+    domain: "https://ln-contabilidade.vercel.app",
     defaultMessage: "Olá, Nilton. Conheci a LN Contabilidade pelo site e gostaria de solicitar uma análise inicial do cenário da minha empresa."
   };
 
@@ -32,6 +32,8 @@
   setText('[data-config-text="emailPrimary"]', config.emailPrimary);
   setText('[data-config-text="emailSecondary"]', config.emailSecondary);
   setText('[data-config-text="instagramHandle"]', config.instagramHandle);
+  setText('[data-config-text="phone"]', config.phone);
+  setText('[data-config-text="city"]', config.city);
   setText('[data-current-year]', String(new Date().getFullYear()));
 
   document.querySelectorAll('[data-email-link="primary"]').forEach(function (link) {
@@ -40,6 +42,10 @@
 
   document.querySelectorAll('[data-email-link="secondary"]').forEach(function (link) {
     if (config.emailSecondary) link.href = "mailto:" + config.emailSecondary;
+  });
+
+  document.querySelectorAll('[data-phone-link]').forEach(function (link) {
+    if (config.phone) link.href = "tel:" + config.phone.replace(/\D/g, "");
   });
 
   document.querySelectorAll('[data-instagram-link]').forEach(function (link) {

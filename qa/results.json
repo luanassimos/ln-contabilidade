@@ -1,236 +1,241 @@
-﻿{
-    "date":  "2026-06-22",
-    "project":  "LN Contabilidade",
-    "phase":  "Fase 3",
-    "environment":  {
-                        "mode":  "static",
-                        "packageManager":  false,
-                        "framework":  false,
-                        "browser":  "chrome.exe"
-                    },
-    "total":  44,
-    "passed":  44,
-    "failed":  0,
-    "results":  [
-                    {
-                        "name":  "Arquivo existe: index.html",
-                        "passed":  true,
-                        "details":  "Encontrado."
-                    },
-                    {
-                        "name":  "Arquivo existe: privacidade.html",
-                        "passed":  true,
-                        "details":  "Encontrado."
-                    },
-                    {
-                        "name":  "Arquivo existe: assets/css/styles.css",
-                        "passed":  true,
-                        "details":  "Encontrado."
-                    },
-                    {
-                        "name":  "Arquivo existe: assets/js/main.js",
-                        "passed":  true,
-                        "details":  "Encontrado."
-                    },
-                    {
-                        "name":  "Arquivo existe: assets/js/site-config.js",
-                        "passed":  true,
-                        "details":  "Encontrado."
-                    },
-                    {
-                        "name":  "Arquivo existe: standalone/ln-contabilidade.html",
-                        "passed":  true,
-                        "details":  "Encontrado."
-                    },
-                    {
-                        "name":  "Arquivo existe: preview/desktop.png",
-                        "passed":  true,
-                        "details":  "Encontrado."
-                    },
-                    {
-                        "name":  "Arquivo existe: preview/tablet.png",
-                        "passed":  true,
-                        "details":  "Encontrado."
-                    },
-                    {
-                        "name":  "Arquivo existe: preview/mobile.png",
-                        "passed":  true,
-                        "details":  "Encontrado."
-                    },
-                    {
-                        "name":  "WhatsApp vazio preservado",
-                        "passed":  true,
-                        "details":  "site-config.js segue sem numero de WhatsApp."
-                    },
-                    {
-                        "name":  "Sem package.json/npm",
-                        "passed":  true,
-                        "details":  "Projeto continua sem npm/build."
-                    },
-                    {
-                        "name":  "Sem CDN/dependencias externas",
-                        "passed":  true,
-                        "details":  "Nenhum CDN detectado."
-                    },
-                    {
-                        "name":  "Sem dados corporativos inventados",
-                        "passed":  true,
-                        "details":  "Sem CNPJ, CRC, clientes, cases, depoimentos, certificacoes ou resultados inventados."
-                    },
-                    {
-                        "name":  "Sem promessa tributaria inadequada",
-                        "passed":  true,
-                        "details":  "Sem promessa de economia garantida."
-                    },
-                    {
-                        "name":  "Referencias locais existem em index.html",
-                        "passed":  true,
-                        "details":  "Todas encontradas."
-                    },
-                    {
-                        "name":  "Referencias locais existem em privacidade.html",
-                        "passed":  true,
-                        "details":  "Todas encontradas."
-                    },
-                    {
-                        "name":  "index.html file:// responsivo em 360px",
-                        "passed":  true,
-                        "details":  "Sem overflow horizontal (360/360)."
-                    },
-                    {
-                        "name":  "index.html file:// sem erros em 360px",
-                        "passed":  true,
-                        "details":  "Console sem erros."
-                    },
-                    {
-                        "name":  "index.html file:// imagens carregam em 360px",
-                        "passed":  true,
-                        "details":  "Imagens com falha: 0."
-                    },
-                    {
-                        "name":  "index.html file:// responsivo em 390px",
-                        "passed":  true,
-                        "details":  "Sem overflow horizontal (390/390)."
-                    },
-                    {
-                        "name":  "index.html file:// sem erros em 390px",
-                        "passed":  true,
-                        "details":  "Console sem erros."
-                    },
-                    {
-                        "name":  "index.html file:// imagens carregam em 390px",
-                        "passed":  true,
-                        "details":  "Imagens com falha: 0."
-                    },
-                    {
-                        "name":  "index.html possui apenas um H1",
-                        "passed":  true,
-                        "details":  "H1 encontrados: 1."
-                    },
-                    {
-                        "name":  "index.html file:// responsivo em 768px",
-                        "passed":  true,
-                        "details":  "Sem overflow horizontal (768/768)."
-                    },
-                    {
-                        "name":  "index.html file:// sem erros em 768px",
-                        "passed":  true,
-                        "details":  "Console sem erros."
-                    },
-                    {
-                        "name":  "index.html file:// imagens carregam em 768px",
-                        "passed":  true,
-                        "details":  "Imagens com falha: 0."
-                    },
-                    {
-                        "name":  "index.html file:// responsivo em 1440px",
-                        "passed":  true,
-                        "details":  "Sem overflow horizontal (1440/1440)."
-                    },
-                    {
-                        "name":  "index.html file:// sem erros em 1440px",
-                        "passed":  true,
-                        "details":  "Console sem erros."
-                    },
-                    {
-                        "name":  "index.html file:// imagens carregam em 1440px",
-                        "passed":  true,
-                        "details":  "Imagens com falha: 0."
-                    },
-                    {
-                        "name":  "index.html via servidor local sem 404",
-                        "passed":  true,
-                        "details":  "Nenhum erro de rede local."
-                    },
-                    {
-                        "name":  "index.html via servidor local sem console",
-                        "passed":  true,
-                        "details":  "Console sem erros no servidor local."
-                    },
-                    {
-                        "name":  "index.html via servidor local sem overflow",
-                        "passed":  true,
-                        "details":  "Sem overflow horizontal."
-                    },
-                    {
-                        "name":  "Sem IDs duplicados",
-                        "passed":  true,
-                        "details":  "Duplicados: "
-                    },
-                    {
-                        "name":  "Sem ancoras internas quebradas",
-                        "passed":  true,
-                        "details":  "Quebradas: "
-                    },
-                    {
-                        "name":  "Menu desktop visivel em 1440px",
-                        "passed":  true,
-                        "details":  "Nav: flex, CTA: flex."
-                    },
-                    {
-                        "name":  "Menu mobile abre, navega e fecha",
-                        "passed":  true,
-                        "details":  "Hash final: #servicos."
-                    },
-                    {
-                        "name":  "FAQ accordion funciona",
-                        "passed":  true,
-                        "details":  "Primeiro item abriu pelo summary."
-                    },
-                    {
-                        "name":  "Formulario vazio bloqueia envio",
-                        "passed":  true,
-                        "details":  "Invalidos: 6; foco: nome."
-                    },
-                    {
-                        "name":  "Formulario preenchido usa fallback por e-mail",
-                        "passed":  true,
-                        "details":  "Status: O WhatsApp público ainda não está configurado. Seu aplicativo de e-mail será aberto com a mensagem pronta."
-                    },
-                    {
-                        "name":  "CTA de contato preserva fallback quando WhatsApp vazio",
-                        "passed":  true,
-                        "details":  "CTA href: #contato."
-                    },
-                    {
-                        "name":  "Navegacao por teclado e foco visivel",
-                        "passed":  true,
-                        "details":  "Skip-link e campos exibem foco."
-                    },
-                    {
-                        "name":  "standalone file:// carrega em 390px",
-                        "passed":  true,
-                        "details":  "h1=1; overflow=False; imagens=0."
-                    },
-                    {
-                        "name":  "standalone file:// carrega em 1440px",
-                        "passed":  true,
-                        "details":  "h1=1; overflow=False; imagens=0."
-                    },
-                    {
-                        "name":  "Politica de privacidade acessivel por file://",
-                        "passed":  true,
-                        "details":  "Privacidade carrega com um H1 e sem overflow."
-                    }
-                ]
+{
+  "date": "2026-06-22",
+  "project": "LN Contabilidade",
+  "phase": "Atualizacao de contato e localizacao",
+  "environment": {
+    "mode": "static",
+    "packageManager": false,
+    "framework": false,
+    "browser": "chrome.exe"
+  },
+  "total": 45,
+  "passed": 45,
+  "failed": 0,
+  "results": [
+    {
+      "name": "Arquivo existe: index.html",
+      "passed": true,
+      "details": "Encontrado."
+    },
+    {
+      "name": "Arquivo existe: privacidade.html",
+      "passed": true,
+      "details": "Encontrado."
+    },
+    {
+      "name": "Arquivo existe: assets/css/styles.css",
+      "passed": true,
+      "details": "Encontrado."
+    },
+    {
+      "name": "Arquivo existe: assets/js/main.js",
+      "passed": true,
+      "details": "Encontrado."
+    },
+    {
+      "name": "Arquivo existe: assets/js/site-config.js",
+      "passed": true,
+      "details": "Encontrado."
+    },
+    {
+      "name": "Arquivo existe: standalone/ln-contabilidade.html",
+      "passed": true,
+      "details": "Encontrado."
+    },
+    {
+      "name": "Sem package.json/npm",
+      "passed": true,
+      "details": "Projeto continua sem npm/build."
+    },
+    {
+      "name": "WhatsApp real configurado",
+      "passed": true,
+      "details": "site-config.js contem 5521981884335."
+    },
+    {
+      "name": "OG URL temporaria Vercel configurada",
+      "passed": true,
+      "details": "index e standalone contem og:url temporario."
+    },
+    {
+      "name": "Sem dados corporativos inventados",
+      "passed": true,
+      "details": "Sem CNPJ, CRC, clientes, cases, depoimentos, certificacoes ou resultados inventados."
+    },
+    {
+      "name": "Sem promessa tributaria inadequada",
+      "passed": true,
+      "details": "Sem promessa de economia garantida."
+    },
+    {
+      "name": "index.html file:// responsivo em 360px",
+      "passed": true,
+      "details": "Sem overflow horizontal (360/360)."
+    },
+    {
+      "name": "index.html file:// sem erros em 360px",
+      "passed": true,
+      "details": "Console/rede sem erros."
+    },
+    {
+      "name": "index.html file:// imagens carregam em 360px",
+      "passed": true,
+      "details": "Imagens com falha: 0."
+    },
+    {
+      "name": "index.html file:// responsivo em 390px",
+      "passed": true,
+      "details": "Sem overflow horizontal (390/390)."
+    },
+    {
+      "name": "index.html file:// sem erros em 390px",
+      "passed": true,
+      "details": "Console/rede sem erros."
+    },
+    {
+      "name": "index.html file:// imagens carregam em 390px",
+      "passed": true,
+      "details": "Imagens com falha: 0."
+    },
+    {
+      "name": "CTAs usam WhatsApp real",
+      "passed": true,
+      "details": "CTAs apontam para wa.me/5521981884335."
+    },
+    {
+      "name": "Telefone exibido",
+      "passed": true,
+      "details": "(21) 98188-4335"
+    },
+    {
+      "name": "Base Rio de Janeiro e atendimento nacional exibidos",
+      "passed": true,
+      "details": "Rio de Janeiro, RJ"
+    },
+    {
+      "name": "Menu mobile abre, navega e fecha",
+      "passed": true,
+      "details": "Hash final: #servicos"
+    },
+    {
+      "name": "FAQ accordion funciona",
+      "passed": true,
+      "details": "Primeiro item abriu pelo summary."
+    },
+    {
+      "name": "Formulario vazio bloqueia envio",
+      "passed": true,
+      "details": "Campos invalidos sinalizados."
+    },
+    {
+      "name": "Formulario preenchido abre WhatsApp real",
+      "passed": true,
+      "details": "Mensagem preparada. O WhatsApp foi aberto para concluir o contato. URL: https://wa.me/5521981884335?text=Ol%C3%A1%2C%20Nilton.%20Conheci%20a%20LN%20Contabilidade%20pelo%20site%20e%20gostaria%2"
+    },
+    {
+      "name": "Navegacao por teclado e foco visivel",
+      "passed": true,
+      "details": "Foco visivel detectado."
+    },
+    {
+      "name": "index.html file:// responsivo em 768px",
+      "passed": true,
+      "details": "Sem overflow horizontal (753/753)."
+    },
+    {
+      "name": "index.html file:// sem erros em 768px",
+      "passed": true,
+      "details": "Console/rede sem erros."
+    },
+    {
+      "name": "index.html file:// imagens carregam em 768px",
+      "passed": true,
+      "details": "Imagens com falha: 0."
+    },
+    {
+      "name": "index.html file:// responsivo em 1440px",
+      "passed": true,
+      "details": "Sem overflow horizontal (1425/1425)."
+    },
+    {
+      "name": "index.html file:// sem erros em 1440px",
+      "passed": true,
+      "details": "Console/rede sem erros."
+    },
+    {
+      "name": "index.html file:// imagens carregam em 1440px",
+      "passed": true,
+      "details": "Imagens com falha: 0."
+    },
+    {
+      "name": "index.html possui apenas um H1",
+      "passed": true,
+      "details": "H1 encontrados: 1."
+    },
+    {
+      "name": "Sem IDs duplicados",
+      "passed": true,
+      "details": "Duplicados: "
+    },
+    {
+      "name": "Sem ancoras internas quebradas",
+      "passed": true,
+      "details": "Quebradas: "
+    },
+    {
+      "name": "Canonical temporario Vercel configurado",
+      "passed": true,
+      "details": "canonical=https://ln-contabilidade.vercel.app/"
+    },
+    {
+      "name": "index.html servidor local sem erros em 390px",
+      "passed": true,
+      "details": "Servidor local OK em 390px."
+    },
+    {
+      "name": "index.html servidor local sem erros em 1440px",
+      "passed": true,
+      "details": "Servidor local OK em 1440px."
+    },
+    {
+      "name": "standalone file:// carrega em 390px",
+      "passed": true,
+      "details": "h1=1; overflow=False; imagens=0."
+    },
+    {
+      "name": "standalone usa WhatsApp real",
+      "passed": true,
+      "details": "CTA e formulario usam wa.me/5521981884335."
+    },
+    {
+      "name": "standalone file:// carrega em 1440px",
+      "passed": true,
+      "details": "h1=1; overflow=False; imagens=0."
+    },
+    {
+      "name": "privacidade file acessivel",
+      "passed": true,
+      "details": "{\"h1\": 1, \"overflow\": false, \"text\": true}"
+    },
+    {
+      "name": "privacidade http acessivel",
+      "passed": true,
+      "details": "{\"h1\": 1, \"overflow\": false, \"text\": true}"
+    },
+    {
+      "name": "Preview regenerado: preview/desktop.png",
+      "passed": true,
+      "details": "1440x1600"
+    },
+    {
+      "name": "Preview regenerado: preview/tablet.png",
+      "passed": true,
+      "details": "768x1400"
+    },
+    {
+      "name": "Preview regenerado: preview/mobile.png",
+      "passed": true,
+      "details": "390x1200"
+    }
+  ]
 }

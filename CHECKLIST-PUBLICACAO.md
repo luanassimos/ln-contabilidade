@@ -2,24 +2,28 @@
 
 ## Dados obrigatórios antes de anunciar o site
 
-- [ ] Inserir o WhatsApp real em `assets/js/site-config.js`
-- [ ] Inserir o telefone público, caso seja diferente do WhatsApp
+- [x] Inserir o WhatsApp real em `assets/js/site-config.js`: `5521981884335`
+- [x] Inserir o telefone público: `(21) 98188-4335`
+- [x] Inserir base de atendimento: Rio de Janeiro, RJ
+- [x] Registrar atendimento nacional
 - [ ] Confirmar que `nilton@lncontabilidade.com` é o e-mail principal
 - [ ] Confirmar que `leonardo@lncontabilidade.com` deve permanecer público
-- [ ] Confirmar o Instagram `@contabilidadeln`
+- [x] Confirmar o Instagram `@contabilidadeln`
 
 ## Domínio e SEO
 
-- [ ] Informar o domínio real em `assets/js/site-config.js`
-- [ ] Adicionar uma tag canonical absoluta ao `index.html` depois de definir o domínio
-- [ ] Trocar o caminho relativo de `og:image` por uma URL absoluta depois de definir o domínio
+- [ ] Definir o domínio final
+- [x] Informar a URL temporária da Vercel em `assets/js/site-config.js`: `https://ln-contabilidade.vercel.app`
+- [x] Adicionar uma tag canonical absoluta temporária ao `index.html`
+- [x] Trocar o caminho relativo de `og:image` por URL absoluta temporária da Vercel
+- [ ] Trocar `https://ln-contabilidade.vercel.app` pelo domínio final em `assets/js/site-config.js`, `index.html`, `standalone/ln-contabilidade.html`, README e materiais de publicação assim que o domínio definitivo for definido
 - [ ] Testar o compartilhamento no WhatsApp, LinkedIn e Facebook depois da publicação
 - [ ] Configurar HTTPS
 - [ ] Criar redirecionamento entre versões com e sem `www`, se aplicável
 
 ## Informações institucionais opcionais
 
-- [ ] Inserir cidade apenas se houver interesse comercial em divulgá-la
+- [x] Inserir cidade/base confirmada: Rio de Janeiro, RJ
 - [ ] Inserir endereço apenas se for um local de atendimento público
 - [ ] Adicionar CNPJ somente depois de confirmação
 - [ ] Adicionar CRC somente depois de confirmação do número e da forma correta de exibição
@@ -27,9 +31,9 @@
 ## Formulário
 
 - [x] Validar bloqueio de envio com campos vazios
-- [x] Validar envio preenchido com fallback por e-mail enquanto o WhatsApp está vazio
-- [ ] Fazer um envio real no celular depois de configurar o WhatsApp
-- [ ] Conferir a mensagem pré-preenchida no WhatsApp real, se o número for configurado
+- [x] Validar envio preenchido abrindo WhatsApp com mensagem pré-preenchida
+- [ ] Fazer um envio real no celular pelo WhatsApp
+- [x] Conferir a URL de WhatsApp gerada com o número real
 - [ ] Confirmar quem responderá aos contatos recebidos
 - [ ] Definir tempo interno de resposta
 
