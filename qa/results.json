@@ -1,857 +1,240 @@
-{
-  "passed": 170,
-  "total": 170,
-  "failed": [],
-  "results": [
-    {
-      "test": "file 320px carrega",
-      "ok": true,
-      "detail": "LN Contabilidade | Tributário, contabilidade empresarial e BPO financeiro"
-    },
-    {
-      "test": "file 320px sem erro de console",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "file 320px sem resposta 4xx/5xx",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "file 320px sem overflow horizontal",
-      "ok": true,
-      "detail": "320/320"
-    },
-    {
-      "test": "file 320px um H1",
-      "ok": true,
-      "detail": "1"
-    },
-    {
-      "test": "file 320px imagens carregadas",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "file 320px âncoras internas",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "file 320px menu mobile abre",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "file 320px menu mobile fecha",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "file 320px FAQ abre",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "file 360px carrega",
-      "ok": true,
-      "detail": "LN Contabilidade | Tributário, contabilidade empresarial e BPO financeiro"
-    },
-    {
-      "test": "file 360px sem erro de console",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "file 360px sem resposta 4xx/5xx",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "file 360px sem overflow horizontal",
-      "ok": true,
-      "detail": "360/360"
-    },
-    {
-      "test": "file 360px um H1",
-      "ok": true,
-      "detail": "1"
-    },
-    {
-      "test": "file 360px imagens carregadas",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "file 360px âncoras internas",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "file 360px menu mobile abre",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "file 360px menu mobile fecha",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "file 360px FAQ abre",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "file 375px carrega",
-      "ok": true,
-      "detail": "LN Contabilidade | Tributário, contabilidade empresarial e BPO financeiro"
-    },
-    {
-      "test": "file 375px sem erro de console",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "file 375px sem resposta 4xx/5xx",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "file 375px sem overflow horizontal",
-      "ok": true,
-      "detail": "375/375"
-    },
-    {
-      "test": "file 375px um H1",
-      "ok": true,
-      "detail": "1"
-    },
-    {
-      "test": "file 375px imagens carregadas",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "file 375px âncoras internas",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "file 375px menu mobile abre",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "file 375px menu mobile fecha",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "file 375px FAQ abre",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "file 390px carrega",
-      "ok": true,
-      "detail": "LN Contabilidade | Tributário, contabilidade empresarial e BPO financeiro"
-    },
-    {
-      "test": "file 390px sem erro de console",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "file 390px sem resposta 4xx/5xx",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "file 390px sem overflow horizontal",
-      "ok": true,
-      "detail": "390/390"
-    },
-    {
-      "test": "file 390px um H1",
-      "ok": true,
-      "detail": "1"
-    },
-    {
-      "test": "file 390px imagens carregadas",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "file 390px âncoras internas",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "file 390px menu mobile abre",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "file 390px menu mobile fecha",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "file 390px FAQ abre",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "file 430px carrega",
-      "ok": true,
-      "detail": "LN Contabilidade | Tributário, contabilidade empresarial e BPO financeiro"
-    },
-    {
-      "test": "file 430px sem erro de console",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "file 430px sem resposta 4xx/5xx",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "file 430px sem overflow horizontal",
-      "ok": true,
-      "detail": "430/430"
-    },
-    {
-      "test": "file 430px um H1",
-      "ok": true,
-      "detail": "1"
-    },
-    {
-      "test": "file 430px imagens carregadas",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "file 430px âncoras internas",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "file 430px menu mobile abre",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "file 430px menu mobile fecha",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "file 430px FAQ abre",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "file 768px carrega",
-      "ok": true,
-      "detail": "LN Contabilidade | Tributário, contabilidade empresarial e BPO financeiro"
-    },
-    {
-      "test": "file 768px sem erro de console",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "file 768px sem resposta 4xx/5xx",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "file 768px sem overflow horizontal",
-      "ok": true,
-      "detail": "768/768"
-    },
-    {
-      "test": "file 768px um H1",
-      "ok": true,
-      "detail": "1"
-    },
-    {
-      "test": "file 768px imagens carregadas",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "file 768px âncoras internas",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "file 768px menu mobile abre",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "file 768px menu mobile fecha",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "file 768px FAQ abre",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "file 1440px carrega",
-      "ok": true,
-      "detail": "LN Contabilidade | Tributário, contabilidade empresarial e BPO financeiro"
-    },
-    {
-      "test": "file 1440px sem erro de console",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "file 1440px sem resposta 4xx/5xx",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "file 1440px sem overflow horizontal",
-      "ok": true,
-      "detail": "1440/1440"
-    },
-    {
-      "test": "file 1440px um H1",
-      "ok": true,
-      "detail": "1"
-    },
-    {
-      "test": "file 1440px imagens carregadas",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "file 1440px âncoras internas",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "file 1440px FAQ abre",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "file 1920px carrega",
-      "ok": true,
-      "detail": "LN Contabilidade | Tributário, contabilidade empresarial e BPO financeiro"
-    },
-    {
-      "test": "file 1920px sem erro de console",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "file 1920px sem resposta 4xx/5xx",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "file 1920px sem overflow horizontal",
-      "ok": true,
-      "detail": "1920/1920"
-    },
-    {
-      "test": "file 1920px um H1",
-      "ok": true,
-      "detail": "1"
-    },
-    {
-      "test": "file 1920px imagens carregadas",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "file 1920px âncoras internas",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "file 1920px FAQ abre",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "http 320px carrega",
-      "ok": true,
-      "detail": "LN Contabilidade | Tributário, contabilidade empresarial e BPO financeiro"
-    },
-    {
-      "test": "http 320px sem erro de console",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "http 320px sem resposta 4xx/5xx",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "http 320px sem overflow horizontal",
-      "ok": true,
-      "detail": "320/320"
-    },
-    {
-      "test": "http 320px um H1",
-      "ok": true,
-      "detail": "1"
-    },
-    {
-      "test": "http 320px imagens carregadas",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "http 320px âncoras internas",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "http 320px menu mobile abre",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "http 320px menu mobile fecha",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "http 320px FAQ abre",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "http 360px carrega",
-      "ok": true,
-      "detail": "LN Contabilidade | Tributário, contabilidade empresarial e BPO financeiro"
-    },
-    {
-      "test": "http 360px sem erro de console",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "http 360px sem resposta 4xx/5xx",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "http 360px sem overflow horizontal",
-      "ok": true,
-      "detail": "360/360"
-    },
-    {
-      "test": "http 360px um H1",
-      "ok": true,
-      "detail": "1"
-    },
-    {
-      "test": "http 360px imagens carregadas",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "http 360px âncoras internas",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "http 360px menu mobile abre",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "http 360px menu mobile fecha",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "http 360px FAQ abre",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "http 375px carrega",
-      "ok": true,
-      "detail": "LN Contabilidade | Tributário, contabilidade empresarial e BPO financeiro"
-    },
-    {
-      "test": "http 375px sem erro de console",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "http 375px sem resposta 4xx/5xx",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "http 375px sem overflow horizontal",
-      "ok": true,
-      "detail": "375/375"
-    },
-    {
-      "test": "http 375px um H1",
-      "ok": true,
-      "detail": "1"
-    },
-    {
-      "test": "http 375px imagens carregadas",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "http 375px âncoras internas",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "http 375px menu mobile abre",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "http 375px menu mobile fecha",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "http 375px FAQ abre",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "http 390px carrega",
-      "ok": true,
-      "detail": "LN Contabilidade | Tributário, contabilidade empresarial e BPO financeiro"
-    },
-    {
-      "test": "http 390px sem erro de console",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "http 390px sem resposta 4xx/5xx",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "http 390px sem overflow horizontal",
-      "ok": true,
-      "detail": "390/390"
-    },
-    {
-      "test": "http 390px um H1",
-      "ok": true,
-      "detail": "1"
-    },
-    {
-      "test": "http 390px imagens carregadas",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "http 390px âncoras internas",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "http 390px menu mobile abre",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "http 390px menu mobile fecha",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "http 390px FAQ abre",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "http 430px carrega",
-      "ok": true,
-      "detail": "LN Contabilidade | Tributário, contabilidade empresarial e BPO financeiro"
-    },
-    {
-      "test": "http 430px sem erro de console",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "http 430px sem resposta 4xx/5xx",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "http 430px sem overflow horizontal",
-      "ok": true,
-      "detail": "430/430"
-    },
-    {
-      "test": "http 430px um H1",
-      "ok": true,
-      "detail": "1"
-    },
-    {
-      "test": "http 430px imagens carregadas",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "http 430px âncoras internas",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "http 430px menu mobile abre",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "http 430px menu mobile fecha",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "http 430px FAQ abre",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "http 768px carrega",
-      "ok": true,
-      "detail": "LN Contabilidade | Tributário, contabilidade empresarial e BPO financeiro"
-    },
-    {
-      "test": "http 768px sem erro de console",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "http 768px sem resposta 4xx/5xx",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "http 768px sem overflow horizontal",
-      "ok": true,
-      "detail": "768/768"
-    },
-    {
-      "test": "http 768px um H1",
-      "ok": true,
-      "detail": "1"
-    },
-    {
-      "test": "http 768px imagens carregadas",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "http 768px âncoras internas",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "http 768px menu mobile abre",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "http 768px menu mobile fecha",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "http 768px FAQ abre",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "http 1440px carrega",
-      "ok": true,
-      "detail": "LN Contabilidade | Tributário, contabilidade empresarial e BPO financeiro"
-    },
-    {
-      "test": "http 1440px sem erro de console",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "http 1440px sem resposta 4xx/5xx",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "http 1440px sem overflow horizontal",
-      "ok": true,
-      "detail": "1440/1440"
-    },
-    {
-      "test": "http 1440px um H1",
-      "ok": true,
-      "detail": "1"
-    },
-    {
-      "test": "http 1440px imagens carregadas",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "http 1440px âncoras internas",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "http 1440px FAQ abre",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "http 1920px carrega",
-      "ok": true,
-      "detail": "LN Contabilidade | Tributário, contabilidade empresarial e BPO financeiro"
-    },
-    {
-      "test": "http 1920px sem erro de console",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "http 1920px sem resposta 4xx/5xx",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "http 1920px sem overflow horizontal",
-      "ok": true,
-      "detail": "1920/1920"
-    },
-    {
-      "test": "http 1920px um H1",
-      "ok": true,
-      "detail": "1"
-    },
-    {
-      "test": "http 1920px imagens carregadas",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "http 1920px âncoras internas",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "http 1920px FAQ abre",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "formulário bloqueia envio vazio",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "formulário marca nome inválido",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "formulário usa fallback de e-mail sem WhatsApp",
-      "ok": true,
-      "detail": "O WhatsApp ainda não está configurado. Seu aplicativo de e-mail será aberto para concluir o contato."
-    },
-    {
-      "test": "formulário sem erro de página",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "standalone 390px carrega",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "standalone 390px sem erros",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "standalone 390px sem overflow",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "standalone 390px imagem embutida",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "standalone 1440px carrega",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "standalone 1440px sem erros",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "standalone 1440px sem overflow",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "standalone 1440px imagem embutida",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "privacidade 390px carrega",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "privacidade 390px sem overflow",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "privacidade 390px sem erros",
-      "ok": true,
-      "detail": "[]"
-    },
-    {
-      "test": "privacidade 1440px carrega",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "privacidade 1440px sem overflow",
-      "ok": true,
-      "detail": ""
-    },
-    {
-      "test": "privacidade 1440px sem erros",
-      "ok": true,
-      "detail": "[]"
-    }
-  ]
+﻿{
+    "date":  "2026-06-22",
+    "project":  "LN Contabilidade",
+    "environment":  {
+                        "mode":  "static",
+                        "packageManager":  false,
+                        "framework":  false,
+                        "browser":  "chrome.exe"
+                    },
+    "total":  45,
+    "passed":  45,
+    "failed":  0,
+    "results":  [
+                    {
+                        "name":  "Arquivo principal existe: index.html",
+                        "passed":  true,
+                        "details":  "Encontrado."
+                    },
+                    {
+                        "name":  "Arquivo principal existe: privacidade.html",
+                        "passed":  true,
+                        "details":  "Encontrado."
+                    },
+                    {
+                        "name":  "Arquivo principal existe: assets/css/styles.css",
+                        "passed":  true,
+                        "details":  "Encontrado."
+                    },
+                    {
+                        "name":  "Arquivo principal existe: assets/js/main.js",
+                        "passed":  true,
+                        "details":  "Encontrado."
+                    },
+                    {
+                        "name":  "Arquivo principal existe: assets/js/site-config.js",
+                        "passed":  true,
+                        "details":  "Encontrado."
+                    },
+                    {
+                        "name":  "Arquivo principal existe: README.md",
+                        "passed":  true,
+                        "details":  "Encontrado."
+                    },
+                    {
+                        "name":  "Arquivo principal existe: CHECKLIST-PUBLICACAO.md",
+                        "passed":  true,
+                        "details":  "Encontrado."
+                    },
+                    {
+                        "name":  "WhatsApp vazio preservado",
+                        "passed":  true,
+                        "details":  "site-config.js continua sem numero de WhatsApp."
+                    },
+                    {
+                        "name":  "Sem package.json/npm",
+                        "passed":  true,
+                        "details":  "Projeto segue sem npm/build."
+                    },
+                    {
+                        "name":  "Sem CDN/dependencias externas",
+                        "passed":  true,
+                        "details":  "Nenhum CDN ou dependencia externa detectada no codigo principal."
+                    },
+                    {
+                        "name":  "Sem dados corporativos inventados",
+                        "passed":  true,
+                        "details":  "Nao foram encontrados CNPJ, CRC, numero de clientes, cases, depoimentos ou certificacoes inventadas."
+                    },
+                    {
+                        "name":  "Sem promessas tributarias inadequadas",
+                        "passed":  true,
+                        "details":  "Nao foram encontradas promessas de economia tributaria."
+                    },
+                    {
+                        "name":  "Referencias locais existem em index.html",
+                        "passed":  true,
+                        "details":  "Todos os arquivos locais referenciados existem."
+                    },
+                    {
+                        "name":  "Referencias locais existem em privacidade.html",
+                        "passed":  true,
+                        "details":  "Todos os arquivos locais referenciados existem."
+                    },
+                    {
+                        "name":  "index.html file:// responsivo em 360px",
+                        "passed":  true,
+                        "details":  "Sem overflow horizontal (360/360)."
+                    },
+                    {
+                        "name":  "index.html file:// sem erros em 360px",
+                        "passed":  true,
+                        "details":  "Console sem erros."
+                    },
+                    {
+                        "name":  "index.html file:// imagens carregam em 360px",
+                        "passed":  true,
+                        "details":  "Todas as imagens carregaram."
+                    },
+                    {
+                        "name":  "index.html file:// responsivo em 390px",
+                        "passed":  true,
+                        "details":  "Sem overflow horizontal (390/390)."
+                    },
+                    {
+                        "name":  "index.html file:// sem erros em 390px",
+                        "passed":  true,
+                        "details":  "Console sem erros."
+                    },
+                    {
+                        "name":  "index.html file:// imagens carregam em 390px",
+                        "passed":  true,
+                        "details":  "Todas as imagens carregaram."
+                    },
+                    {
+                        "name":  "index.html possui apenas um H1",
+                        "passed":  true,
+                        "details":  "Um H1 encontrado."
+                    },
+                    {
+                        "name":  "index.html file:// responsivo em 768px",
+                        "passed":  true,
+                        "details":  "Sem overflow horizontal (768/768)."
+                    },
+                    {
+                        "name":  "index.html file:// sem erros em 768px",
+                        "passed":  true,
+                        "details":  "Console sem erros."
+                    },
+                    {
+                        "name":  "index.html file:// imagens carregam em 768px",
+                        "passed":  true,
+                        "details":  "Todas as imagens carregaram."
+                    },
+                    {
+                        "name":  "index.html file:// responsivo em 1440px",
+                        "passed":  true,
+                        "details":  "Sem overflow horizontal (1440/1440)."
+                    },
+                    {
+                        "name":  "index.html file:// sem erros em 1440px",
+                        "passed":  true,
+                        "details":  "Console sem erros."
+                    },
+                    {
+                        "name":  "index.html file:// imagens carregam em 1440px",
+                        "passed":  true,
+                        "details":  "Todas as imagens carregaram."
+                    },
+                    {
+                        "name":  "index.html file:// responsivo em desktop amplo",
+                        "passed":  true,
+                        "details":  "Sem overflow horizontal (1920/1920)."
+                    },
+                    {
+                        "name":  "index.html file:// sem erros em desktop amplo",
+                        "passed":  true,
+                        "details":  "Console sem erros."
+                    },
+                    {
+                        "name":  "index.html file:// imagens carregam em desktop amplo",
+                        "passed":  true,
+                        "details":  "Todas as imagens carregaram."
+                    },
+                    {
+                        "name":  "index.html via servidor local carrega sem 404",
+                        "passed":  true,
+                        "details":  "Nenhum 404/erro de rede no servidor local."
+                    },
+                    {
+                        "name":  "index.html via servidor local sem erros de console",
+                        "passed":  true,
+                        "details":  "Console sem erros no servidor local."
+                    },
+                    {
+                        "name":  "index.html via servidor local sem overflow",
+                        "passed":  true,
+                        "details":  "Sem overflow horizontal."
+                    },
+                    {
+                        "name":  "Sem IDs duplicados",
+                        "passed":  true,
+                        "details":  "Nenhum ID duplicado."
+                    },
+                    {
+                        "name":  "Sem ancoras internas quebradas",
+                        "passed":  true,
+                        "details":  "Todas as ancoras internas existem."
+                    },
+                    {
+                        "name":  "Menu desktop visivel em 1440px",
+                        "passed":  true,
+                        "details":  "Nav: flex, CTA: flex."
+                    },
+                    {
+                        "name":  "Menu mobile abre, navega e fecha",
+                        "passed":  true,
+                        "details":  "Abriu, navegou para #servicos e fechou."
+                    },
+                    {
+                        "name":  "FAQ accordion funciona",
+                        "passed":  true,
+                        "details":  "Primeiro item abriu pelo summary."
+                    },
+                    {
+                        "name":  "Formulario vazio bloqueia envio",
+                        "passed":  true,
+                        "details":  "Bloqueado com 6 campos invalidos; foco em nome."
+                    },
+                    {
+                        "name":  "Formulario preenchido funciona com fallback por e-mail",
+                        "passed":  true,
+                        "details":  "Status de sucesso por e-mail; WhatsApp vazio preservado; CTA contato: #contato."
+                    },
+                    {
+                        "name":  "CTA de contato preserva fallback quando WhatsApp vazio",
+                        "passed":  true,
+                        "details":  "CTAs internos continuam apontando para contato."
+                    },
+                    {
+                        "name":  "Navegacao por teclado e foco visivel",
+                        "passed":  true,
+                        "details":  "Tab focou skip-link; input exibe foco com sombra/borda."
+                    },
+                    {
+                        "name":  "standalone file:// carrega em 390px",
+                        "passed":  true,
+                        "details":  "Standalone ok: um H1, sem overflow, imagens carregadas."
+                    },
+                    {
+                        "name":  "standalone file:// carrega em 1440px",
+                        "passed":  true,
+                        "details":  "Standalone ok: um H1, sem overflow, imagens carregadas."
+                    },
+                    {
+                        "name":  "Politica de privacidade acessivel por file://",
+                        "passed":  true,
+                        "details":  "Privacidade carrega com um H1 e sem overflow."
+                    }
+                ]
 }

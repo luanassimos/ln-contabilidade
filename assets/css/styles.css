@@ -372,12 +372,14 @@ section[id] {
 
 .eyebrow {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  max-width: 100%;
   gap: 12px;
   color: var(--steel);
   font-size: 0.69rem;
   font-weight: 750;
-  letter-spacing: 0.19em;
+  letter-spacing: 0.13em;
   line-height: 1.5;
   text-transform: uppercase;
 }
@@ -431,6 +433,7 @@ section[id] {
 }
 
 .hero-copy {
+  min-width: 0;
   max-width: 750px;
 }
 
@@ -443,6 +446,7 @@ section[id] {
   letter-spacing: 0;
   line-height: 1.02;
   text-wrap: balance;
+  overflow-wrap: break-word;
 }
 
 .hero-lead {
@@ -451,6 +455,7 @@ section[id] {
   color: rgba(184, 194, 191, 0.88);
   font-size: 1.08rem;
   line-height: 1.65;
+  overflow-wrap: break-word;
 }
 
 .button-row {
@@ -468,6 +473,7 @@ section[id] {
   border-left: 1px solid rgba(138, 168, 186, 0.35);
   font-size: 0.81rem;
   line-height: 1.6;
+  overflow-wrap: break-word;
 }
 
 .hero-portrait {
@@ -626,6 +632,7 @@ section[id] {
   color: var(--slate);
   font-size: 1.02rem;
   line-height: 1.75;
+  overflow-wrap: break-word;
 }
 
 .issue-list {
@@ -1598,6 +1605,10 @@ section[id] {
 }
 
 @media (min-width: 700px) {
+  .eyebrow {
+    letter-spacing: 0.19em;
+  }
+
   .section {
     padding-block: 124px;
   }
@@ -1984,7 +1995,7 @@ section[id] {
   }
 
   .hero h1 {
-    font-size: 2.55rem;
+    font-size: 2.42rem;
   }
 
   .lead-form {

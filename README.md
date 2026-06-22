@@ -1,6 +1,6 @@
 # LN Contabilidade | Site final
 
-Site institucional estático criado em HTML5, CSS3 e JavaScript puro. Não exige npm, build, servidor ou dependências externas para abrir.
+Site institucional estático criado em HTML5, CSS3 e JavaScript puro. Não exige npm, build, servidor, CDN ou dependências externas para abrir.
 
 ## Abrir agora
 
@@ -12,9 +12,7 @@ A versão de arquivo único está em:
 
 `standalone/ln-contabilidade.html`
 
-Ela incorpora imagem, CSS, JavaScript e favicon no próprio HTML.
-
-Observação: a versão standalone não foi atualizada na Fase 1 de refinamento da landing page. Atualize esse arquivo somente depois da aprovação da página principal.
+Ela incorpora CSS, JavaScript, favicons e imagens essenciais no próprio HTML. A standalone foi sincronizada com a versão principal nesta finalização e também abre direto por `file://`.
 
 ## Publicar
 
@@ -61,9 +59,9 @@ Enquanto o número estiver vazio, os botões conduzem ao formulário e o envio p
 
 ## Alterar textos
 
-Os textos institucionais estão diretamente em `index.html`. Isso garante que todo o conteúdo continue visível mesmo quando o JavaScript estiver desativado.
+Os textos institucionais estão diretamente em `index.html`. Isso garante que o conteúdo principal continue visível mesmo quando o JavaScript estiver desativado.
 
-Depois de aprovar alterações na página principal, replique ou regenere a versão `standalone/ln-contabilidade.html` para manter as duas entregas alinhadas.
+Depois de qualquer ajuste aprovado na página principal, regenere ou revise `standalone/ln-contabilidade.html` para manter as duas entregas alinhadas.
 
 ## Alterar cores e espaçamentos
 
@@ -85,7 +83,7 @@ nilton-1200.webp
 nilton-960.jpg
 ```
 
-A proporção usada no site é 4:5.
+A proporção usada no site é 4:5. A foto real do Nilton não foi alterada artificialmente nesta finalização.
 
 ## Logo e identidade
 
@@ -111,4 +109,12 @@ O relatório está em:
 
 `qa/relatorio-de-testes.md`
 
-Esse relatório registra a validação do pacote original, incluindo a versão standalone. Na Fase 1 de refinamento, a página principal foi ajustada primeiro; a standalone deve ser atualizada e revalidada somente depois da aprovação da versão principal.
+A rodada final registrou 45 de 45 verificações aprovadas em `qa/results.json`, incluindo `file://`, servidor local, standalone, responsividade, menu, FAQ, formulário, fallback de e-mail, acessibilidade básica e ausência de dados inventados.
+
+## Pacote final
+
+O pacote de publicação é:
+
+`LN-Contabilidade-Site-Final.zip`
+
+Ele contém a versão principal, standalone, assets, brand, previews, QA, README e checklist de publicação.
